@@ -1,0 +1,5 @@
+Here the code LOOCV.ipynb was used to train the model, perfrom Leave one out cross validation and plotting AUROC and AUPRC plots.
+Code Top5_RFE.ipynb was used for feature selection and then perfroming Leave one out cross validation and plotting AUROC and AUPRC plots.
+Code "run_extratrees_independent_test.py" is the main code which user can use for running on their dataset. The code will check the features if they are similar as of ours and then used the model for prediction. 
+AUROC and AUPRC values will be given as a result. 
+"independent_test_features.csv" is the sample input file and "ExtraTrees_independent_predictions.csv" is the sample output file.
